@@ -1,0 +1,18 @@
+{
+  "name": "projectbox",
+  "version": "1.0.0",
+  "description": "Um app simples e intuitivo para guardar e organizar ideias de projetos. Ideal para estudantes e desenvolvedores que desejam registrar suas inspirações de forma rápida e acessível, usando apenas HTML, CSS e JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0",
+    "next": "^13.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "keywords": []
+}
