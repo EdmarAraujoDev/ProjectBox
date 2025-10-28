@@ -4,7 +4,9 @@
   "description": "Um app simples e intuitivo para guardar e organizar ideias de projetos. Ideal para estudantes e desenvolvedores que desejam registrar suas inspirações de forma rápida e acessível, usando apenas HTML, CSS e JavaScript.",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "lint:check": " prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "author": "",
   "license": "MIT",
@@ -14,5 +16,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
-  "keywords": []
+  "keywords": [],
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
 }
